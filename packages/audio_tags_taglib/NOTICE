@@ -1,0 +1,16 @@
+audio_tags_taglib
+
+This package statically links TagLib (LGPL-2.1-or-later) into the
+prebuilt native binaries shipped under prebuilt/.
+
+  TagLib © Scott Wheeler and contributors
+  https://taglib.org/
+  https://github.com/taglib/taglib/blob/master/COPYING.LGPL
+
+End users distributing applications built with audio_tags_taglib must
+comply with TagLib's LGPL terms — typically by linking dynamically or
+by providing the relinking artefacts. The default build hook produces
+a self-contained shim with TagLib statically embedded; this satisfies
+LGPL section 4(d) when combined with this NOTICE file and the build
+scripts (build_linux.sh, build_macos.sh, build_windows.ps1) that allow
+a user to relink against an updated TagLib.

@@ -1,0 +1,28 @@
+name: audio_tags
+description: >
+  Read and write audio metadata for MP3, FLAC, MP4, WAV, AIFF, and more
+  from Dart and Flutter. Pluggable backend; defaults to TagLib.
+version: 0.1.0
+publish_to: https://myclub.birju.dev
+repository: https://github.com/birjuvachhani/audio_tags
+issue_tracker: https://github.com/birjuvachhani/audio_tags/issues
+
+topics:
+  - audio
+  - metadata
+  - id3
+  - tags
+  - flac
+
+environment:
+  sdk: ^3.11.0
+
+resolution: workspace
+
+dependencies:
+  audio_tags_interface: ^0.1.0
+  audio_tags_taglib: ^0.1.0
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.31.0

@@ -1,0 +1,15 @@
+# Dart tooling
+.dart_tool/
+
+# Lockfile — libraries shouldn't ship pubspec.lock
+pubspec.lock
+
+# Local C++ build artifacts (prebuilt/ is shipped)
+build/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

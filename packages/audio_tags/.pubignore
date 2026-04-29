@@ -1,0 +1,12 @@
+# Dart tooling
+.dart_tool/
+
+# Lockfile — libraries shouldn't ship pubspec.lock
+pubspec.lock
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

@@ -1,0 +1,11 @@
+audio_tags_lofty
+
+This package statically links lofty-rs (MIT) into the prebuilt native
+binaries shipped under prebuilt/.
+
+  lofty-rs © Serial-ATA and contributors
+  https://github.com/Serial-ATA/lofty-rs
+
+The bundled binaries also embed transitive Rust crate dependencies
+under their respective licenses. See src/Cargo.lock for the full
+crate graph.

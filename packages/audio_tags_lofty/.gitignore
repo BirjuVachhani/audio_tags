@@ -1,0 +1,18 @@
+# Dart tooling
+.dart_tool/
+
+# Lockfile — libraries shouldn't commit pubspec.lock
+pubspec.lock
+
+# Build output
+build/
+
+# Rust build artifacts (the prebuilt/ dir is checked in and shipped)
+src/target/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

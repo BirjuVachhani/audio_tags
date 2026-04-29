@@ -1,0 +1,5 @@
+audio_tags
+
+This package depends on audio_tags_taglib by default, which statically
+links TagLib (LGPL-2.1-or-later) into its prebuilt native binaries. See
+the audio_tags_taglib NOTICE file for LGPL compliance details.

@@ -1,0 +1,8 @@
+name: audio_tags_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+
+workspace:
+  - packages/*

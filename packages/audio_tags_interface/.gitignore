@@ -1,0 +1,15 @@
+# Dart tooling
+.dart_tool/
+
+# Lockfile — libraries shouldn't commit pubspec.lock
+pubspec.lock
+
+# Build output
+build/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
