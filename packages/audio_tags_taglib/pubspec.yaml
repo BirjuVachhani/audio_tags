@@ -2,8 +2,9 @@ name: audio_tags_taglib
 description: >
   TagLib (C++) backend for audio_tags. Reads and writes MP3, FLAC, MP4,
   Vorbis, Opus, WAV, AIFF, and more via FFI. Ships prebuilt binaries.
+
 version: 0.1.0
-publish_to: https://myclub.birju.dev
+
 repository: https://github.com/birjuvachhani/audio_tags
 issue_tracker: https://github.com/birjuvachhani/audio_tags/issues
 

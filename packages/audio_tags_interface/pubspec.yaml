@@ -2,8 +2,9 @@ name: audio_tags_interface
 description: >
   Core interface and data models for audio_tags backends. Backend authors
   depend on this; end users depend on audio_tags instead.
+
 version: 0.1.0
-publish_to: https://myclub.birju.dev
+
 repository: https://github.com/birjuvachhani/audio_tags
 issue_tracker: https://github.com/birjuvachhani/audio_tags/issues
 

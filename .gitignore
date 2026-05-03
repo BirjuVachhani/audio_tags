@@ -18,3 +18,7 @@ build/
 *.iml
 
 .claude/
+
+sample_music/
+
+playground/
